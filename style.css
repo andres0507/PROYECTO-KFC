@@ -37,22 +37,58 @@ hr {
   background-color: #6f6e6e;
   margin-left: 10%;
   margin-right: 50%;
+  margin-bottom: 2rem;
 }
 
 main {
   width: 100%;
   height: auto;
+  
 }
 .raya {
   margin-left: 6rem;
+  
 }
 
 section img{
     width: 9rem;
+    border: solid 4px red;
+    justify-content: center;
 }
 
 section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 4px red;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+footer img {
+    width: 4rem; 
+  
+   margin-left: 2rem;
+
+
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+  
+
 }
