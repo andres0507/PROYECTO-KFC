@@ -8,7 +8,7 @@
 body {
   width: 100%;
   height: auto;
-  border: solid 4px red;
+  
 }
 
 .container-header {
@@ -22,13 +22,15 @@ body {
   padding: 0.5rem 1rem;
 }
 
-.logo img {
+.logo-link img {
   width: 8rem;
   padding-right: 1rem;
   margin-right: 2rem;
 }
 
-.logo {
+
+
+.logo-link {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -36,10 +38,26 @@ body {
     gap: 2rem;
 }
 
-.texto {
+a {
+    text-decoration: none;
+    color: #000000;
+    transition: .3s;
+}
+
+a:hover {
+color: #6f6e6e;
+}
+
+.icons {
   display: flex;
   grid-column-gap: 1rem;
   font-family: Arial, Helvetica, sans-serif;
+  transition: .3s;
+}
+
+
+.icons i {
+    font-size: 1.4rem;
 }
 
 hr {
@@ -61,7 +79,7 @@ main {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: solid 1px red;
+    
 }
 .raya-hr {
     width: 80%;
@@ -83,19 +101,24 @@ main {
     background-color: rgb(249, 246, 246);
     padding: .8rem;
     border-radius: 10px;
+    transition: .3s;
 
 
 }
 
-
+.combo:hover {
+    background-color: #eceaea;
+}
 
 .combo img{
     margin-bottom: .5rem;
     width: 10rem;
     object-fit: contain;
-    border: solid 2px red;
+    
     
 }
+
+
 
 .container-section {
     display: flex;
