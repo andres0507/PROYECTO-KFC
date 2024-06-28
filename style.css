@@ -7,9 +7,10 @@
 body {
   width: 100%;
   height: auto;
+  border: solid 4px red;
 }
 
-.container {
+.container-header {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -33,20 +34,38 @@ body {
 }
 hr {
   height: 2px;
-  width: 75%;
+  width: 100%;
   background-color: #6f6e6e;
-  margin-left: 10%;
-  margin-right: 50%;
-  margin-bottom: 2rem;
+  
 }
 
 main {
   width: 100%;
   height: auto;
+ 
   
 }
+
+.linea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px red;
+}
+.raya-hr {
+    width: 80%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
 .raya {
-  margin-left: 6rem;
+  
+  
   
 }
 
@@ -59,9 +78,7 @@ section img{
 section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    border: solid 4px red;
+  justify-content: center;
    
 }
 
