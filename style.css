@@ -32,6 +32,7 @@ body {
   grid-column-gap: 1rem;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 hr {
   height: 2px;
   width: 100%;
@@ -62,34 +63,37 @@ main {
     
 }
 
-
-.raya {
-  
-  
-  
+.container-section {
+    gap: 2rem;
 }
 
-section img{
-    width: 9rem;
-    border: solid 4px red;
-    justify-content: center;
+
+.combo {
+    text-align: center;
+    background-color: rgb(249, 246, 246);
+    padding: .8rem;
+    border-radius: 10px;
+
+
 }
 
-section {
+
+
+.combo img{
+    margin-bottom: .5rem;
+    width: 10rem;
+    object-fit: contain;
+    
+    
+}
+
+.container-section {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-  justify-content: center;
    
 }
-
-
-
-
-
-
-
-
-
 
 
 footer img {
@@ -101,8 +105,7 @@ footer img {
 }
 
 footer{
-    position: absolute;
-    bottom: 0;
+    
     width: 100%;
     background-color: black;
     display: flex;
